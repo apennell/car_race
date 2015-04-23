@@ -5,7 +5,7 @@ class Car
   attr_reader :speed
 
   # set initial speed to 0 when instantiating a car
-  def initialize()
+  def initialize
     @speed = 0
   end
 
@@ -13,4 +13,5 @@ class Car
   def accelerate(new_speed)
     @speed = new_speed
   end
+
 end
